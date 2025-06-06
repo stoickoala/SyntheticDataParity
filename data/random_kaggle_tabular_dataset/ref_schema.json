@@ -1,0 +1,15 @@
+{
+    "INDICATOR": "string",
+    "UNIT": "string",
+    "UNIT_NUM": "int",
+    "STUB_NAME": "string",
+    "STUB_NAME_NUM": "int",
+    "STUB_LABEL": "string",
+    "STUB_LABEL_NUM": "int",
+    "YEAR": "int",
+    "YEAR_NUM": "int",
+    "AGE": "string",
+    "AGE_NUM": "int",
+    "ESTIMATE": "decimal",
+    "FLAG": "boolean"
+}
