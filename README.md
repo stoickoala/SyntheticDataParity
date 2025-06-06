@@ -51,6 +51,7 @@ A Gradio-powered web app for quickly assessing how closely a synthetic tabular d
 
 ## 📁 Project Structure
 
+```markdown
 SyntheticDataParity/
 ├── requirements.txt           ← project dependencies
 ├── data/                      ← example datasets & schemas
@@ -70,6 +71,7 @@ SyntheticDataParity/
             ├── general_stats_tab.py
             ├── multivariate_tab.py
             └── global_summary_tab.py
+```
 
 ## ▶️ Usage
 
