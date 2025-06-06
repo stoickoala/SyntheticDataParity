@@ -35,14 +35,14 @@ A Gradio-powered web app for quickly assessing how closely a synthetic tabular d
     cd SyntheticDataParity
     ```
 
-2. **Create a virtual environment (optional, but recommended)
+2. **Create a virtual environment (optional, but recommended)**
 
     ```bash
     python3 -m venv .venv
     source .venv/bin/activate   # on Windows use `.venv\Scripts\activate`
     ```
 
-3. **Install dependencies
+3. **Install dependencies**
 
     ```bash
     pip install --upgrade pip
@@ -75,23 +75,23 @@ SyntheticDataParity/
 
 ## ▶️ Usage
 
-1. **Launch the app
+1. **Launch the app**
 
     ```bash
     python -m src.app.app
     ```
 
-2. **General Stats
+2. **General Stats**
     - Enter paths to your reference CSV and comparison CSV
     - Enter paths to their JSON/YAML schemas
     - Click Load Data
     - Select any common column to see detailed univariate comparisons
 
-3. **Multivariate Analysis
+3. **Multivariate Analysis**
     - Once data is loaded, choose the number of PCA components
     - Click Compute PCA & Multivariate Metrics
 
-4. **Global Summary
+4. **Global Summary**
     - Click Compute Global Summary to get a full metrics table and top-5 divergence chart
 
 ## 💡 Tips & Notes
